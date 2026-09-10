@@ -1,0 +1,45 @@
+{
+  "id": "/",
+  "name": "ব্রেকিং চুয়াডাঙ্গা ২৪",
+  "short_name": "চুয়াডাঙ্গা ২৪",
+  "description": "চুয়াডাঙ্গার খবর, সবার আগে — আধুনিক ও নির্ভরযোগ্য ডিজিটাল বাংলা নিউজ পোর্টাল",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "categories": ["news", "magazines"],
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

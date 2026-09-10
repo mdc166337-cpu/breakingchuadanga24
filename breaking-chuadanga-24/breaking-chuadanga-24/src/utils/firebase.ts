@@ -1,0 +1,23 @@
+import { initializeApp, getApps, getApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+
+export const firebaseConfig = {
+  projectId: "boreal-actor-stvkm",
+  appId: "1:603112832350:web:ba54d0864b375b8c01e3cf",
+  apiKey: "AIzaSyDLHd5OZ5b43BAryvQjurgqslX8k6tMgkg",
+  authDomain: "boreal-actor-stvkm.firebaseapp.com",
+  firestoreDatabaseId: "ai-studio-breakingchuadang-50b8251e-c3aa-4a26-a5cb-d8e9f1810216",
+  storageBucket: "boreal-actor-stvkm.firebasestorage.app",
+  messagingSenderId: "603112832350",
+  measurementId: "",
+  oAuthClientId: "603112832350-liq01mqv65rbc8cngulr6fqgjhj60eda.apps.googleusercontent.com",
+  recaptchaSiteKey: ""
+};
+
+const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
+
+export const db = firebaseConfig.firestoreDatabaseId 
+  ? getFirestore(app, firebaseConfig.firestoreDatabaseId)
+  : getFirestore(app);
+
+export { app };
