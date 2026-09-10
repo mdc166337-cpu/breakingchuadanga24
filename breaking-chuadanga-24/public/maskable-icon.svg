@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="50%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </linearGradient>
+    <linearGradient id="goldGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full Bleed Background for adaptive clipping -->
+  <rect width="512" height="512" fill="url(#bgGradMask)" />
+
+  <!-- Safe Zone content strictly inside central 75% -->
+  <g transform="translate(0, 0)">
+    <!-- Inner emblem -->
+    <circle cx="256" cy="256" r="155" fill="#7f1d1d" fill-opacity="0.5" stroke="#ffffff" stroke-width="4" stroke-opacity="0.4" />
+
+    <!-- Top Brand Tag -->
+    <rect x="166" y="132" width="180" height="36" rx="18" fill="#ffffff" />
+    <text x="256" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="900" fill="#dc2626" letter-spacing="2.5" text-anchor="middle">BREAKING</text>
+
+    <!-- Main 24 in Bengali -->
+    <text x="256" y="308" font-family="'Hind Siliguri', 'Noto Serif Bengali', -apple-system, sans-serif" font-size="145" font-weight="900" fill="#ffffff" text-anchor="middle">২৪</text>
+
+    <!-- Live indicator -->
+    <circle cx="350" cy="195" r="10" fill="#fbbf24" stroke="#ffffff" stroke-width="2.5" />
+
+    <!-- Bottom Banner -->
+    <rect x="146" y="342" width="220" height="40" rx="20" fill="url(#goldGradMask)" />
+    <text x="256" y="369" font-family="'Hind Siliguri', 'Noto Serif Bengali', -apple-system, sans-serif" font-size="20" font-weight="800" fill="#78350f" text-anchor="middle">চুয়াডাঙ্গা</text>
+  </g>
+</svg>

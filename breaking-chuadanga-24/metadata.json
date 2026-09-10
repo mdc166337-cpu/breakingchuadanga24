@@ -1,0 +1,7 @@
+{
+  "name": "Breaking Chuadanga 24",
+  "description": "ব্রেকিং চুয়াডাঙ্গা ২৪ — চুয়াডাঙ্গার খবর, সবার আগে। নির্ভরযোগ্য ও আধুনিক বাংলা ডিজিটাল নিউজ পোর্টাল।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
