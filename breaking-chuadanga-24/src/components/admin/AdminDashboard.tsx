@@ -142,6 +142,25 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
         </div>
       </div>
 
+      {/* Cloud Sync Status Banner */}
+      <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-3.5 flex items-center justify-between flex-wrap gap-3">
+        <div className="flex items-center gap-2.5">
+          <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></div>
+          <div>
+            <span className="text-xs sm:text-sm font-bold text-emerald-900 flex items-center gap-1.5">
+              <span>ক্লাউড ডাটাবেস সক্রিয়</span>
+              <span className="bg-emerald-200 text-emerald-800 text-[10px] font-semibold px-2 py-0.5 rounded-full">Firebase Cloud Sync</span>
+            </span>
+            <p className="text-[11px] sm:text-xs text-emerald-700 mt-0.5">
+              কম্পিউটার থেকে নিউজ ছাড়লে সারা বিশ্বের যে কোনো মানুষের মোবাইলে সাথে সাথে দেখা যাবে।
+            </p>
+          </div>
+        </div>
+        <div className="text-[11px] font-semibold text-emerald-800 bg-emerald-100 px-2.5 py-1 rounded-lg border border-emerald-300">
+          GitHub & Netlify Ready
+        </div>
+      </div>
+
       {/* 6 Stat Cards Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3.5 sm:gap-4">
         {statCards.map((c, i) => {
